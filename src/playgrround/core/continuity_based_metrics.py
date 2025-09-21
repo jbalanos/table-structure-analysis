@@ -8,7 +8,7 @@ def continuity_metrics(
     *,
     window: int = 20,                               # lookback W (previous rows only)
     masks: Optional[Dict[str, pd.DataFrame]] = None # optional: {'null','numeric','date'} → bool DFs aligned to df
-) -> pd.DataFrame:
+    ) -> pd.DataFrame:
     """
     Compute C1 continuity metrics for a sheet-like DataFrame using ONLY previous rows as baseline.
 

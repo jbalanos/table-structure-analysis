@@ -28,7 +28,7 @@ def _detect_lexical_tokens(
     stripped_df: pd.DataFrame,
     currency_symbols: Tuple[str, ...] = ("€", "$", "£"),
     iso_currencies: Tuple[str, ...] = ("EUR", "USD", "GBP")
-) -> pd.DataFrame:
+    ) -> pd.DataFrame:
     """
     Detect presence of lexical tokens in DataFrame rows (A2 metrics).
 
@@ -77,7 +77,7 @@ def _normalize_numeric_locale_aware(
     decimal_used: str,
     currency_symbols: Tuple[str, ...],
     iso_currencies: Tuple[str, ...]
-) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     Normalize and parse numeric values from DataFrame with locale-aware formatting.
 
@@ -132,7 +132,7 @@ def _prepare_dataframe_for_analysis(
     decimal: str = ".",
     currency_symbols: Tuple[str, ...] = ("€", "$", "£"),
     iso_currencies: Tuple[str, ...] = ("EUR", "USD", "GBP")
-) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, str, str]:
+    ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, str, str]:
     """
     Prepare DataFrame for analysis with locale inference, string normalization, and basic masks.
 
@@ -226,7 +226,7 @@ def _calculate_density_type_metrics(
     numeric_mask_df: pd.DataFrame,
     df_index: pd.Index,
     n_cols: int
-) -> pd.DataFrame:
+    ) -> pd.DataFrame:
     """
     Calculate M1 density and type mix metrics for each row.
 
@@ -281,7 +281,7 @@ def _calculate_density_type_metrics(
 def _calculate_numeric_statistics(
     numeric_vals_df: pd.DataFrame,
     paren_neg_present_sr: pd.Series
-) -> pd.DataFrame:
+    ) -> pd.DataFrame:
     """
     Calculate M3 numeric magnitude and sign metrics for each row.
 
@@ -322,7 +322,7 @@ def _calculate_position_context_metrics(
     blank_threshold: float,
     df_index: pd.Index,
     n_rows: int
-) -> pd.DataFrame:
+    ) -> pd.DataFrame:
     """
     Calculate M4 position and block context metrics for each row.
 
@@ -367,7 +367,7 @@ def value_based_memtrics(
     iso_currencies: Tuple[str, ...] = ("EUR", "USD", "GBP"),
     blank_threshold: float = 0.15,
     metric_groups: dict = None,
-) -> pd.DataFrame:
+    ) -> pd.DataFrame:
     """
     Vectorized per-row value-based fingerprint metrics (M1–M4) with locale-aware numeric parsing.
 
