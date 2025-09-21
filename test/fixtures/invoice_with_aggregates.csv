@@ -1,0 +1,26 @@
+Item,Description,Qty,Rate,Amount
+HEADER,Monthly Services Invoice - March 2024,,,
+ITEM,Web Development,80,$125.00,$10000.00
+ITEM,Database Optimization,20,€200.00,€4000.00
+ITEM,API Development,35,£150.00,£5250.00
+SUBTOTAL,Development Services Subtotal,,,£19250.00
+,,,
+ITEM,Project Management,40,$95.00,$3800.00
+ITEM,Quality Assurance,25,€120.00,€3000.00
+ITEM,Code Review,15,£180.00,£2700.00
+SUBTOTAL,Management Services Subtotal,,,€9500.00
+,,,
+ITEM,Cloud Hosting,12,$299.99,$3599.88
+ITEM,SSL Certificates,5,€89.99,€449.95
+ITEM,Backup Services,3,£199.99,£599.97
+AGGREGATE,Infrastructure Subtotal,,,£4649.80
+,,,
+TOTAL,Services Total,,,£33399.80
+TAX,VAT (20%),,,£6679.96
+TOTAL,Grand Total,,,£40079.76
+,,,
+SUMMARY,Total Items Count: 45,,,
+SUMMARY,Average Rate: $142.50,,,
+SUMMARY,Max Line Item: £5250.00,,,
+SUMMARY,Min Line Item: €449.95,,,
+FINAL,Balance Due,,,£40079.76

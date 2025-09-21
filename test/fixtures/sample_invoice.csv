@@ -1,0 +1,30 @@
+Description,Qty,Unit Price,Line Total,Notes
+Invoice #INV-2024-001,,,,
+Consulting Services,5,€150.00,€750.00,
+Software License,2,$499.99,$999.98,Annual subscription
+Development Hours,40,£85.50,£3420.00,Backend development
+,,,Subtotal:,£5169.98
+,,,Tax (20%):,£1033.99
+,,,Total Amount:,£6203.97
+,,,,
+Payment Terms: Net 30,,,,
+Professional Services,8,€125.00,€1000.00,
+Database Setup,1,$2500.00,$2500.00,One-time setup
+API Integration,15,£95.00,£1425.00,
+,,,Services Subtotal:,€4925.00
+,,,Discount (10%):,-€492.50
+,,,Services Total:,€4432.50
+,,,,
+Hardware Costs,,,,
+Server License,3,$899.00,$2697.00,
+Cloud Storage,12,€45.99,€551.88,Per month
+Backup Service,1,£199.99,£199.99,Annual
+,,,Hardware Subtotal:,$3448.87
+,,,,
+Grand Total,,,,$7881.37
+Balance Due,,,,$7881.37
+,,,,
+Summary by Category,,,,
+Professional Services,,,€4432.50,
+Hardware & Software,,,,$3448.87,
+Running Total,,,,$7881.37

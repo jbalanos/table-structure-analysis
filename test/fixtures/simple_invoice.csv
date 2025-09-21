@@ -1,0 +1,21 @@
+Description,Amount,Type,Notes
+Invoice Header,,HEADER,
+Consulting Services,$1500.00,ITEM,Professional work
+Software License,€800.00,ITEM,Annual subscription
+Development Hours,£2400.00,ITEM,Backend work
+Services Subtotal,$4700.00,SUBTOTAL,
+Tax (20%),$940.00,TAX,
+Total Amount,$5640.00,TOTAL,
+,,,
+Hardware Costs,,SECTION,
+Server License,$1200.00,ITEM,
+Cloud Storage,€300.00,ITEM,Monthly
+Hardware Subtotal,$1500.00,SUBTOTAL,
+,,,
+Grand Total,$7140.00,TOTAL,
+Balance Due,$7140.00,BALANCE,
+,,,
+Summary Count: 15 items,,SUMMARY,
+Average: $476.00,,SUMMARY,
+Min Item: €300.00,,SUMMARY,
+Max Item: £2400.00,,SUMMARY,
